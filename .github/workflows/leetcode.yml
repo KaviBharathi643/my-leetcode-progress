@@ -1,0 +1,22 @@
+name: Sync LeetCode Progress
+
+on:
+  workflow_dispatch: # Allows you to manually trigger it
+  schedule:
+    - cron: '39 10 * * *' # Automatically runs once every day
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Open Repository
+        uses: actions/checkout@v4
+
+      - name: Sync Submissions
+        uses: joshcai/leetcode-sync@v1.7.0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+          leetcode-session: ${{ secrets.LEETCODE_SESSION }}
+          destination-folder: problems # Puts your code into a neat "problems" directory
