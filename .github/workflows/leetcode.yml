@@ -3,7 +3,8 @@ name: Sync LeetCode Progress
 on:
   workflow_dispatch: # Allows you to manually trigger it
   schedule:
-    - cron: '39 10 * * *' # Automatically runs once every day
+    - cron: '0 * * * *' # Automatically runs every hour at minute 0
+
 
 jobs:
   build:
