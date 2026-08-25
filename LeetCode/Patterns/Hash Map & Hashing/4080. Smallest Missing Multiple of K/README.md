@@ -2,14 +2,14 @@
 
 🔗 [Problem Link](https://leetcode.com/problems/smallest-missing-multiple-of-k/)
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Python-blue)
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
 ### 💡 Tags
 Array, Hash Table
 
 ### 🚀 Performance
-- **Runtime:** 5 ms
-- **Memory:** 12.5 MB
+- **Runtime:** 9 ms
+- **Memory:** 45.7 MB
 
 ---
 
