@@ -2,7 +2,7 @@ import java.util.*;
 class Solution {
     public int missingNumber(int[] nums) {
         Arrays.sort(nums);
-        if(nums.length==1){
+        if(nums.length==1 ){
             return nums[0]-1;
         }
         int k=0;
