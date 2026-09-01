@@ -8,7 +8,7 @@ class Solution {
             rev=(rev*10)+r;
             y=y/10;
         }
-        if(rev<(2**31)){
+        if(rev<(231)){
         if(x<0){
             return rev-(rev*2);
         }
