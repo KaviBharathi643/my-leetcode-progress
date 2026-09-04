@@ -8,6 +8,7 @@ ArrayList<Integer> al=new ArrayList<>();
                 if(i==j){
                     al.add(i);
                     k=1;
+                    
                 }
                 if(k==1){
                     break;
