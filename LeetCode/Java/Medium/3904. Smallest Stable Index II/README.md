@@ -1,6 +1,6 @@
 # 📝 3904. Smallest Stable Index II (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/smallest-stable-index-ii/?envType=daily-question&envId=2026-09-05)
+🔗 [Problem Link](https://leetcode.com/problems/smallest-stable-index-ii)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
