@@ -1,22 +1,24 @@
 class Solution {
     public int firstStableIndex(int[] nums, int k) {
-        int ma=nums[0];
-        int mi=Integer.MAX_VALUE;
-        for(int i=0;i<nums.length;i++){
-            mi=Integer.MAX_VALUE;
-            if(nums[i]>ma){
-                ma=nums[i];
-            }
-            for(int j=i;j<nums.length;j++){
-                if(nums[j]<mi){
-                    mi=nums[j];
-                }
-            }
-            int ins=ma-mi;
-            if(ins<=k){
+        int n = nums.length;
+        int[] right = new int[n];
+        right[n - 1] = nums[n - 1];
+        
+        // Step 1: Precompute suffix minimums from right to left
+        for (int i = n - 2; i >= 0; i--) {
+            right[i] = Math.min(right[i + 1], nums[i]);
+        }
+        
+        int left = 0;
+        // Step 2: Iterate left to right tracking prefix maximum and checking score
+        for (int i = 0; i < n; i++) {
+            left = Math.max(left, nums[i]);
+            if (left - right[i] <= k) {
                 return i;
             }
         }
+        
         return -1;
     }
 }
+
