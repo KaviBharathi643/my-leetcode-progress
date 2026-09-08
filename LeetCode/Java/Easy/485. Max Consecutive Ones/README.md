@@ -1,6 +1,6 @@
 # 📝 485. Max Consecutive Ones (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/max-consecutive-ones/?envType=problem-list-v2&envId=array)
+🔗 [Problem Link](https://leetcode.com/problems/max-consecutive-ones/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
