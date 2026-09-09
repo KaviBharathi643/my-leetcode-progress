@@ -14,7 +14,7 @@ class Solution {
         if(head==null || head.next==null){
             return head;
         }
-        while(temp.next!=null && temp!=null){
+        while(temp.next!=null){
             if(temp.next.val==temp.val){
                 temp.next=temp.next.next;
             }else{
