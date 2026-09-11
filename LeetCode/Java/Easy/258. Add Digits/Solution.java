@@ -3,6 +3,7 @@ class Solution {
         
         while(num>9){
             int nu=num;
+
             
             int su=0;
             while(nu>0){
