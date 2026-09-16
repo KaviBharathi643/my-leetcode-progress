@@ -19,6 +19,10 @@ class Solution {
             c++;
             temp=temp.next;
         }
+        if(n==c){
+            head=head.next;
+            return head;
+        }
         int k=c-n;
         temp=head;
         for(int i=1;i<k;i++){
