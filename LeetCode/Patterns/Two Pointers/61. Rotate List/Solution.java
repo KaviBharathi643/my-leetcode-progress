@@ -12,6 +12,13 @@ class Solution {
     public ListNode rotateRight(ListNode head, int k) {
         if(head==null || head.next==null){
             return head;}
+            int c=0;
+            ListNode t=head;
+            while(t!=null){
+                c++;
+                t=t.next;
+            }
+k=k%c;
         while(k>0){
             ListNode temp=head;
             ListNode prev=null;
