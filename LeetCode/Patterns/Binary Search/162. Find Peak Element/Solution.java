@@ -19,7 +19,7 @@ class Solution {
                 }}
             else if(i==nums.length-1){
                 if(nums[nums.length-1]>nums[nums.length-2]){
-                    return nums.length;
+                    return nums.length-1;
                 }
             }
             else if(nums[i]>nums[i-1] && nums[i]>nums[i+1]){
