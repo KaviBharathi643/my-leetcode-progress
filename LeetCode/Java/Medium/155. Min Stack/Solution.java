@@ -30,7 +30,7 @@ class MinStack {
     
     public int getMin() {
         
-        return ms.pop();
+        return ms.peek();
     }
 }
 
