@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 10 / 150 (6.7%)
+- **Completed:** 11 / 150 (7.3%)
 
 ---
 
@@ -21,7 +21,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Longest Consecutive Sequence
 
 ### 📂 Two Pointers
-- [ ] Valid Palindrome
+- [x] [Valid Palindrome](./Java/Easy/125. Valid Palindrome/)
 - [ ] Two Sum II - Input Array Is Sorted
 - [ ] 3Sum
 - [x] [Container With Most Water](./Java/Medium/11. Container With Most Water/)
