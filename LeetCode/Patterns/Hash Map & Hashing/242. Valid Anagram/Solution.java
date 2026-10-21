@@ -11,7 +11,7 @@ class Solution {
             arr[tt-'a']-=1;
         }
         for(int i:arr){
-        if(i==1){
+        if(i!=0){
             return false;
         }}
         return true;
