@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 12 / 238 (5.0%)
+- **Completed:** 13 / 238 (5.5%)
 
 ---
 
@@ -153,7 +153,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [ ] Maximum Subarray
 - [ ] Subarray Sums Divisible by K
 - [ ] Subsets
-- [ ] Two Sum
+- [x] [Two Sum](./Python/Easy/1. Two Sum/)
 - [ ] 3Sum
 - [ ] 4Sum
 - [ ] Subarray Sum Equals K
